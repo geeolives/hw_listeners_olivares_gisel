@@ -1,3 +1,9 @@
+var i = 1;
+
+function increments() {
+	i++;
+}
+
 var topHeading = document.getElementByID('topHeading');
 
 topHeading.addEventListener('click', function () {
