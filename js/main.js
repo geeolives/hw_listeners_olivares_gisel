@@ -1,7 +1,7 @@
 var i = 1;
 
 function increments() {
-	i++;
+    i++;
 }
 
 var topHeading = document.getElementByID('topHeading');
