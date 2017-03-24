@@ -1,5 +1,7 @@
 body {
     background-color: #df3d82;
+    font-family: "Clicker Script", cursive;
+    font-size: 1.3em;
 }
 
 #container {
@@ -16,6 +18,7 @@ textarea {
     width: 50%;
     margin: auto;
     padding: 5px;
+    font-family: "Clicker Script", cursive;
 };
 
 label {
@@ -28,6 +31,8 @@ textarea {
     margin-top: 15px;
     padding: 1px;
     margin-bottom: 15px;
+    border-color: #228b22;
+    border-width: 3px;
 }
 
 input[type="submit"] {
@@ -36,4 +41,5 @@ input[type="submit"] {
     padding: 5px 0;
     width: 50%;
     margin: auto;
+    background-color: LightBlue;
 }
