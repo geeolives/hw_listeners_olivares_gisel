@@ -4,7 +4,7 @@ function increments() {
     i++;
 }
 
-var topHeading = document.getElementByID('topHeading');
+var topHeading = document.getElementById('topHeading');
 
 topHeading.addEventListener('click', function () {
     var p = document.createElement('p');
