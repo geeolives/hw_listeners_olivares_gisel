@@ -8,3 +8,32 @@ body {
     text-align: center;
     width: 50%;
 }
+
+label,
+input,
+textarea {
+    display: block;
+    width: 50%;
+    margin: auto;
+    padding: 5px;
+};
+
+label {
+    margin-top: 20px;
+}
+
+input,
+textarea {
+    width: 300px;
+    margin-top: 15px;
+    padding: 1px;
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+    display: block;
+    border-radius: 8px;
+    padding: 5px 0;
+    width: 50%;
+    margin: auto;
+}
