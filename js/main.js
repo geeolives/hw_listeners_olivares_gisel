@@ -15,3 +15,9 @@ img.addEventListener('mouseover', function () {
         img.src = 'img/unicorn-loop.gif';
     }
 });
+
+//This is my third JavaScript event listener that listens for a click on the page. When the listener hears the event, the background color of the container changes.
+
+document.addEventListener('click', function () {
+    document.body.style.backgroundColor = '#228B22';
+});
